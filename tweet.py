@@ -25,6 +25,7 @@
 import sys
 import os
 import time
+import random
 from twython import Twython
 # your twitter access information goes here
 
@@ -48,3 +49,5 @@ def randomTweet():
         return None
     except IOError:
         return None
+	
+randomTweet()
