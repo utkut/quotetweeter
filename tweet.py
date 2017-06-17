@@ -22,12 +22,13 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Included packets here.
 import sys
 import os
 import time
 import random
 from twython import Twython
-# your twitter access information goes here
+# your twitter access information goes here.
 
 apiKey = 'REPLACEME'
 apiSecret = 'REPLACEME'
@@ -37,6 +38,9 @@ accessTokenSecret = 'REPLACEME'
 api = Twython(apiKey,apiSecret,accessToken,accessTokenSecret)
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+
+# Random Tweet selecting and posting below.
+# Pretty Fragile shit :/
 
 def randomTweet():
     try:
