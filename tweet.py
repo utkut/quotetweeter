@@ -2,6 +2,11 @@
 
 # Author: Utku Tarhan
 
+# The code written was written for educational purposes on
+# San Francisco State University and does not infringe any conflict of interest
+# with Apple Business Conduct 2019.
+# Written By: Utku Tarhan
+
 # Requires twython package which could be installed: sudo pip install twython
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
